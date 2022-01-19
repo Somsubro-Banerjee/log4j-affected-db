@@ -39478,9 +39478,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 1.21.7 - 1.22.9
-          - 2.0.3 - 2.1.5
-          - 2.2.0 - 3.0.2
+          - 1.21.7-1.22.9
+          - 2.0.3-2.1.5
+          - 2.2.0-3.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -39774,7 +39774,7 @@ software:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
     notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For
       details on how to apply such patch, please refer to the technical bulletin “FOXMAN-UN
-      - Installation of Log4j Patch”, version A (1KHW029176) available in the Hitachi
+      Installation of Log4j Patch”, version A (1KHW029176) available in the Hitachi
       Energy Customer Connect Portal.
     references:
       - ''
@@ -39942,7 +39942,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 9.1.0.32 - 9.1.0.44
+          - 9.1.0.32-9.1.0.44
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -39972,7 +39972,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 9.0 - 9.10.44
+          - 9.0-9.10.44
           - 9.1.1
           - 10.3.4
         unaffected_versions: []
@@ -40824,6 +40824,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HPE/Micro Focus
+    product: Data Protector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '9.09'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://portal.microfocus.com/s/article/KM000003243
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - https://portal.microfocus.com/s/article/KM000003050
+    last_updated: '2021-12-17T00:00:00'
   - vendor: HPE
     product: 3PAR StoreServ Arrays
     cves:
@@ -59460,7 +59490,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 11305 and below
+          - < 11305
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -60618,8 +60648,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: MicroFocus
-    product: ''
+  - vendor: Micro Focus
+    product: Data Protector
     cves:
       cve-2021-4104:
         investigated: false
@@ -60627,9 +60657,19 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '10.20'
+          - '10.30'
+          - '10.40'
+          - '10.50'
+          - '10.60'
+          - '10.70'
+          - '10.80'
+          - '10.90'
+          - '10.91'
+          - '11.00'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -60642,11 +60682,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
+      - https://portal.microfocus.com/s/article/KM000003052
     notes: ''
     references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+      - https://portal.microfocus.com/s/article/KM000003050
+    last_updated: '2021-12-13T00:00:00'
   - vendor: Microsoft
     product: Azure API Gateway
     cves:
